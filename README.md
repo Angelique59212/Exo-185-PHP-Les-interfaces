@@ -1,12 +1,12 @@
 Consignes :
 
-- Dans classes/interfaces/user.interface.php , j'ai écrit une interface pour la classe
-user
-- La classe user implémente l'interface userInterface
-- Si vous testez le code en ligne, celui ci va retourner une erreur car la classe user
-n'implémente pas la méthode getRequest définie dans l'interface
-- Vous allez écrire cette méthode qui va récuperer les variables envoyées par l'utilisateur
-- Vous allez écrire également la méthode parseRequest qui va afficher les différentes variables
+***- Dans classes/interfaces/user.interface.php , j'ai écrit une interface pour la classe
+user***
+***- La classe user implémente l'interface userInterface***
+***- Si vous testez le code en ligne, celui ci va retourner une erreur car la classe user
+n'implémente pas la méthode getRequest définie dans l'interface***
+***- Vous allez écrire cette méthode qui va récuperer les variables envoyées par l'utilisateur***
+***- Vous allez écrire également la méthode parseRequest qui va afficher les différentes variables***
 
 - Dans l'exercice, j'ai également inclu une constante d'interface, comme vous pouvez le voir
 une constante d'interface est disponible dans la classe qui implémente l'interface.

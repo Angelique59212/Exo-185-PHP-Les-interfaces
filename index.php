@@ -3,8 +3,10 @@
 require 'classes/user.php';
 
 $user = new user();
+$user ->getRequest();
+echo $user ->parseRequest();
 
-echo user::MAX_INSTANCES;
+echo UserInterface::MAX_INSTANCES;
 
 
 
